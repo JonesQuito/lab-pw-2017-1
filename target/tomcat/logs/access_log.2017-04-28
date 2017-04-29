@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [28/Apr/2017:23:02:43 -0300] "GET /projeto HTTP/1.1" 302 - http-bio-9090-exec-1 0
+0:0:0:0:0:0:0:1 - - [28/Apr/2017:23:02:43 -0300] "GET /projeto/ HTTP/1.1" 200 177 http-bio-9090-exec-2 13
+0:0:0:0:0:0:0:1 - - [28/Apr/2017:23:02:43 -0300] "GET /projeto/imagem1.jpg HTTP/1.1" 404 989 http-bio-9090-exec-3 6
+0:0:0:0:0:0:0:1 - - [28/Apr/2017:23:03:04 -0300] "GET /projeto/ HTTP/1.1" 304 - http-bio-9090-exec-4 7
+0:0:0:0:0:0:0:1 - - [28/Apr/2017:23:03:04 -0300] "GET /projeto/imagem1.jpg HTTP/1.1" 200 9283 http-bio-9090-exec-5 4
+0:0:0:0:0:0:0:1 - - [28/Apr/2017:23:06:46 -0300] "GET /projeto/ HTTP/1.1" 200 223 http-bio-9090-exec-7 4
+0:0:0:0:0:0:0:1 - - [28/Apr/2017:23:06:46 -0300] "GET /projeto/imagem1.jpg HTTP/1.1" 304 - http-bio-9090-exec-8 2
+0:0:0:0:0:0:0:1 - - [28/Apr/2017:23:06:49 -0300] "GET /projeto/imcJSP/index.jsp HTTP/1.1" 500 2870 http-bio-9090-exec-9 876
