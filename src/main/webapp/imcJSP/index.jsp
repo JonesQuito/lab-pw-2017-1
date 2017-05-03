@@ -27,7 +27,7 @@
                     
                 </div>
                 <div class="panel-body">
-                    <form name="formulario">
+                    <form name="formulario" action="responseImc.jsp" method="post">
                         <fieldset>
                             <div class="form-group">
                                 <input class="form-control" placeholder="Informe aqui seu peso" name="peso" type="text" autofocus="">
@@ -45,72 +45,6 @@
                         </fieldset>
                     </form>
                 </div>
-
-
-
-                <%
-                String pesoStr = request.getParameter("peso");
-                String alturaStr = request.getParameter("altura");
-                String sexo = request.getParameter("sexo");
-
-                pesoStr = pesoStr == null ? "0" : pesoStr;
-                alturaStr = alturaStr == null ? "0" : alturaStr;
-
-                double peso = Double.parseDouble(pesoStr);
-                double altura = Double.parseDouble(alturaStr);
-                double imc = peso / (altura * altura);
-
-                String situacao = "";
-                if(sexo.equals("masculino") && imc <= 20.7){
-                    situacao = "Abaixo do Peso Ideal!!";
-                }
-                else if(sexo.equals("masculino") && imc <= 26.4){
-                    situacao = "No Peso Normal!!";
-                }
-                else if(sexo.equals("masculino") && imc <= 27.8){
-                    situacao = "Marginalmente Acima do Peso!!";
-                }
-                else if(sexo.equals("masculino") && imc <= 31.1){
-                    situacao = "Acima do Peso Ideal!!";
-                }
-                else if(sexo.equals("masculino") && imc > 31.1){
-                    situacao = "Obeso!!";
-                }
-                else if(sexo.equals("feminino") && imc <= 19.1){
-                    situacao = "Abaixo do Peso!!";
-                }
-                else if(sexo.equals("feminino") && imc <= 25.8){
-                    situacao = "No Peso Normal!!";
-                }
-                else if(sexo.equals("feminino") && imc <= 27.3){
-                    situacao = "Marginalmente Acima do Peso!!";
-                }
-                else if(sexo.equals("feminino") && imc <= 32.3){
-                    situacao = "Acima do Peso Ideal!!";
-                }
-                else if(sexo.equals("feminino") && imc > 32.3){
-                    situacao = "Obesa!!";
-                }
-
-
-
-                %>
-
-                <div class="panel-heading">
-                    <center>
-                        <h3 class="panel-title">IMC: <%=imc%></h3>
-                    </center> 
-                </div>
-                <%
-                if(imc>=20.7 && imc<26.4){
-                %>
-                <div class="alert alert-success" role="alert" style="margin-top:45px"><%=situacao%></div>
-                <%}
-                else{%>
-                <div class="alert alert-warning" role="alert" style="margin-top:45px"><%=situacao%></div>
-                <%}%>
-
-
 
             </div>
   </body>
