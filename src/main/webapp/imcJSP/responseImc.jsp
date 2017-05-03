@@ -90,7 +90,7 @@
                 <%}%>
                 
                  <center style="padding-bottom: 10px;">
-                    <button class="btn btn-sm btn-success"><a href="index.jsp">Novo Caulculo</a></button>
+                    <button class="btn btn-sm btn-success"><a href="index.jsp" style="font-weight: bold; color: white; font-size: 10pt;">Novo Caulculo</a></button>
                      
                  </center>
 
