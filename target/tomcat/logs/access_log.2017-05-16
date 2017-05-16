@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [16/May/2017:19:40:06 -0300] "GET /projeto/imcJSP/ HTTP/1.1" 200 2250 http-bio-9090-exec-1 1639
+0:0:0:0:0:0:0:1 - - [16/May/2017:19:48:09 -0300] "GET /projeto/imcJSP/ HTTP/1.1" 200 3008 http-bio-9090-exec-3 130
+0:0:0:0:0:0:0:1 - - [16/May/2017:19:50:09 -0300] "GET /projeto/imcJSP/ HTTP/1.1" 200 3171 http-bio-9090-exec-5 94
+0:0:0:0:0:0:0:1 - - [16/May/2017:19:52:30 -0300] "GET /projeto/imcJSP/ HTTP/1.1" 500 2703 http-bio-9090-exec-7 55
+0:0:0:0:0:0:0:1 - - [16/May/2017:19:54:33 -0300] "GET /projeto/imcJSP/ HTTP/1.1" 500 2703 http-bio-9090-exec-8 16
+0:0:0:0:0:0:0:1 - - [16/May/2017:19:54:34 -0300] "GET /projeto/imcJSP/ HTTP/1.1" 200 3171 http-bio-9090-exec-9 1
+0:0:0:0:0:0:0:1 - - [16/May/2017:19:55:25 -0300] "GET /projeto/imcJSP/ HTTP/1.1" 500 2703 http-bio-9090-exec-1 17
+0:0:0:0:0:0:0:1 - - [16/May/2017:19:55:46 -0300] "GET /projeto/imcJSP/ HTTP/1.1" 500 2703 http-bio-9090-exec-2 15
+0:0:0:0:0:0:0:1 - - [16/May/2017:19:55:48 -0300] "GET /projeto/imcJSP/ HTTP/1.1" 200 3171 http-bio-9090-exec-3 0
